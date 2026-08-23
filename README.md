@@ -74,7 +74,7 @@ python --version
 1. Clone the Repository
 Clone this repository using Git:
 
-https://github.com/Ashmita-bit/gesture-control-presenter.git
+https://github.com/shrirakshatr67-spec/Gesture-Control-Presenter.git
 Move into the project directory:
 
 cd gesture-control-presenter
