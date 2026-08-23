@@ -1,11 +1,11 @@
-🖐️ Gesture Control Presenter
+#🖐️ Gesture Control Presenter
 
 
 A Python-based computer vision application that allows users to control Google Slides presentations using real-time hand gestures through a laptop webcam.
 
 The system detects hand landmarks using MediaPipe, processes the webcam feed using OpenCV, recognizes predefined gestures, and uses PyAutoGUI to perform presentation controls automatically.
 
-🎥 Project Demo
+#🎥 Project Demo
 
 A demonstration of the project is available in my LinkedIn project post:
 
@@ -13,7 +13,7 @@ A demonstration of the project is available in my LinkedIn project post:
 
 The demo shows how different hand gestures can be used to control a Google Slides presentation without touching the keyboard or mouse.
 
-✨ Features
+#✨ Features
 🖐️ Hands-free Google Slides control
 📷 Real-time webcam-based hand tracking
 🤖 AI-powered hand landmark detection
@@ -23,19 +23,22 @@ The demo shows how different hand gestures can be used to control a Google Slide
 🔌 No additional hardware required
 ⚡ Real-time gesture processing
 🧠 Gesture Controls
-Gesture	Action
+
+#Gesture	Action
 ✋ Open Palm	Next Slide
 🤟 Three Fingers	Previous Slide
 ✌️ Two Fingers	Start Slideshow
 ✊ Fist	Exit Slideshow
-🛠️ Technologies Used
+
+#🛠️ Technologies Used
 Python
 OpenCV – Webcam capture and image processing
 MediaPipe – Hand landmark detection
 PyAutoGUI – Keyboard automation
 Computer Vision
 Hand Gesture Recognition
-⚙️ How It Works
+
+#⚙️ How It Works
 The application follows this workflow:
 
 Laptop Webcam
@@ -55,7 +58,8 @@ Gesture-to-Keyboard Mapping
      PyAutoGUI
       ↓
  Google Slides Control
-Processing Steps
+ 
+#Processing Steps
 The laptop webcam captures the user's hand movements.
 OpenCV processes the real-time camera frames.
 MediaPipe detects the hand and identifies its landmarks.
@@ -63,8 +67,9 @@ The application analyzes finger positions.
 Recognized gestures are mapped to presentation actions.
 PyAutoGUI sends the corresponding keyboard commands.
 Google Slides responds to the commands and changes the presentation.
-🚀 Installation
-Prerequisites
+
+#🚀 Installation
+#Prerequisites
 Make sure you have:
 
 Python 3 installed
@@ -74,14 +79,14 @@ A Google Slides presentation
 Check your Python installation:
 
 python --version
-1. Clone the Repository
+#1. Clone the Repository
 Clone this repository using Git:
 
 https://github.com/shrirakshatr67-spec/Gesture-Control-Presenter.git
 Move into the project directory:
 
 cd gesture-control-presenter
-2. Create a Virtual Environment
+#2. Create a Virtual Environment
 For Windows:
 
 python -m venv .venv
@@ -91,23 +96,23 @@ Activate the virtual environment:
 After activation, your terminal should show:
 
 (.venv)
-3. Install Dependencies
+#3. Install Dependencies
 Install the required Python packages:
 
 pip install -r requirements.txt
-4. Download the Hand Landmarker Model
+#4. Download the Hand Landmarker Model
 Run:
 
 python setup_models.py
 This downloads the required MediaPipe hand landmark model used by the application.
 
-▶️ Running the Application
+#▶️ Running the Application
 Start the application using:
 
 python main.py
 Allow the application to access your webcam if Windows asks for permission.
 
-🎯 How to Use
+#🎯 How to Use
 Open your Google Slides presentation in Google Chrome.
 Start the presentation/slideshow.
 Make sure your webcam is working.
@@ -115,7 +120,7 @@ Run the Python application.
 Position your hand clearly in front of the webcam.
 Perform the supported gestures.
 The application will recognize the gesture and control the presentation.
-📂 Project Structure
+#📂 Project Structure
 gesture-control-presenter/
 │
 ├── .gitignore
@@ -125,7 +130,7 @@ gesture-control-presenter/
 └── setup_models.py
 The MediaPipe model is downloaded separately by setup_models.py and should not need to be committed to the Git repository.
 
-📦 Dependencies
+#📦 Dependencies
 The project uses:
 
 mediapipe==0.10.35
@@ -137,7 +142,8 @@ requirements.txt
 Install them using:
 
 pip install -r requirements.txt
-🧩 Key Concepts Demonstrated
+
+#🧩 Key Concepts Demonstrated
 This project demonstrates practical implementation of:
 
 Computer Vision
@@ -147,7 +153,8 @@ Real-Time Webcam Processing
 Human-Computer Interaction (HCI)
 Python Automation
 Keyboard Event Automation
-🔮 Future Improvements
+
+#🔮 Future Improvements
 Possible future enhancements include:
 
 👉 Swipe gesture recognition
@@ -158,7 +165,8 @@ Possible future enhancements include:
 🧠 Custom gesture training
 🎨 Improved gesture visualization
 ⚡ Better gesture stability and noise reduction
-⚠️ Important Notes
+
+#⚠️ Important Notes
 For better gesture recognition:
 
 Ensure sufficient lighting.
@@ -166,7 +174,8 @@ Keep your hand clearly visible to the webcam.
 Avoid heavily cluttered backgrounds.
 Keep your hand at a moderate distance from the camera.
 Make gestures clearly and hold them briefly when necessary.
-🎓 Learning Outcomes
+
+#🎓 Learning Outcomes
 Through this project, I gained practical experience with:
 
 Python programming
@@ -178,10 +187,11 @@ Hand landmark detection
 Gesture recognition
 Python automation
 Human-computer interaction
-👨‍💻 Author
+
+#👨‍💻 Author
 Shriraksha T R
 
 Engineering Student | Python | Computer Vision | Software Development
 
-⭐ Project
+#⭐ Project
 If you find this project useful or interesting, consider giving the repository a ⭐ on GitHub.
