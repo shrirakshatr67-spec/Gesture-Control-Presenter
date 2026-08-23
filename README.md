@@ -1,5 +1,4 @@
- #👋 Gesture Control Presenter
-
+🖐️ Gesture Control Presenter
 A Python-based computer vision application that allows users to control Google Slides presentations using real-time hand gestures through a laptop webcam.
 
 The system detects hand landmarks using MediaPipe, processes the webcam feed using OpenCV, recognizes predefined gestures, and uses PyAutoGUI to perform presentation controls automatically.
