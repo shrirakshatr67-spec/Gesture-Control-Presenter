@@ -6,7 +6,7 @@ The system detects hand landmarks using MediaPipe, processes the webcam feed usi
 🎥 Project Demo
 A demonstration of the project is available in my LinkedIn project post:
 
-[https://lnkd.in/p/gEpzfEWh]
+[https://lnkd.in/p/g4jwefB9]
 
 The demo shows how different hand gestures can be used to control a Google Slides presentation without touching the keyboard or mouse.
 
